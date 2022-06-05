@@ -1,3 +1,72 @@
 body {
   background: blanchedalmond;
 }
+/* * {
+  border: 5px solid red;
+} */
+#container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid red;
+}
+.a {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  margin: 1em;
+}
+.b {
+  display: flex;
+  min-height: 70vh;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  margin: 1em;
+}
+.c {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  margin: 1em;
+}
+body {
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    display: flex;
+    min-height: 30vh;
+    width: 100%;
+    border: 2px solid red;
+    margin: 1em;
+  }
+
+  .b {
+    display: inline-block;
+    min-height: 60vh;
+    width: 75%;
+    border: 2px solid red;
+    margin: 1em;
+  }
+  .c {
+    display: inline-block;
+    min-height: 60vh;
+    width: 20%;
+    border: 2px solid red;
+  }
+}
